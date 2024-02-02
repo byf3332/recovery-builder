@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-11.0
-  DEVICE: X655C
-  DT_LINK: https://github.com/kies83/recovery_device_infinix_x655c
-  DT_PATH: device/infinix/X655C
+  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-9.0
+  DEVICE: Archimedes
+  DT_LINK: https://github.com/byf3332/Xiaomi-Archimedes-device-tree
+  DT_PATH: device/xiaomi/Archimedes
   TARGET: recoveryimage
   TZ: Asia/Karachi
 
